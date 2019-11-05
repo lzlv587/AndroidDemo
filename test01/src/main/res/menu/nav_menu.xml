@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_diancan"
+            android:icon="@drawable/diancan"
+            android:title="点餐"/>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_person"
+            android:icon="@drawable/person"
+            android:title="人员管理"/>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_caipin"
+            android:icon="@drawable/food"
+            android:title="菜品管理"/>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_order"
+            android:icon="@drawable/food"
+            android:title="订单管理"/>
+    </group>
+
+</menu>

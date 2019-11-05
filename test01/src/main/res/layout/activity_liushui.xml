@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="getDate"
+    android:text="设置初始日期" />
+    <TextView
+        android:id="@+id/dialog_tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="getTime"
+        android:text="日期：" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="getTime"
+        android:text="设置结束日期" />
+
+    <TextView
+        android:id="@+id/dialog_tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="日期：" />
+
+</LinearLayout>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="查询"
+    android:id="@+id/btn_query_order"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="输入订单号查询"
+    android:id="@+id/et_num_query_order"
+    />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="订单号查询"
+            android:id="@+id/btn_num_query_order"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="订单信息"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textColor="#843030"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ordershowTexiview"
+            android:textSize="20dp"/>
+    </LinearLayout>
+</LinearLayout>

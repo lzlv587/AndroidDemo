@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <TableRow
+        android:layout_width="match_parent"
+        >
+        <TextView
+            android:layout_width="35dp"
+            android:id="@+id/noTxv"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textColor="#8c7b7b"
+            android:width="20dp"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/nameTxv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:padding="3dp"
+            android:textColor="#00ffff"
+            android:textSize="30sp" />
+        <TextView
+
+            android:id="@+id/descriptionTxv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:padding="5dp"
+            android:textColor="#a0ff42"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/numTxv"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingLeft="5dp"
+            android:width="30dp"
+            android:textSize="30sp"
+            />
+        <TextView
+
+            android:id="@+id/priceTxv"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingLeft="3dp"
+            android:textColor="#FF8080"
+            android:textSize="30sp"
+            android:width="40dp"/>
+        <CheckBox
+
+
+            android:id="@+id/checkCkb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:gravity="right"
+
+            />
+    </TableRow>
+
+</TableLayout>
